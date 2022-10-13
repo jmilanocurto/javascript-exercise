@@ -93,27 +93,24 @@ iframe {
 .textContent {
   padding: 0px;
   margin:auto;
-  width:75%;
+  width:72%;
 }
 
 .backButton {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   font-family: monospace;
-  font-size: 16px;
-  cursor: pointer;
-  padding: 0px;
-  margin:auto;
-  width:75%;
   color: var(--myblack);
+  font-size: 16px;
+  font-weight: normal;
+  cursor: pointer;
+  margin:auto;
+  width:40%;
 }
 
 .backButton:hover {
-  justify-content: space-around;
-  font-family: monospace;
-  font-size: 16px;
+  font-style: italic;
   font-weight: bold;
-  color: var(--myblack);
   transition-delay: 10ms;
   transition-timing-function: ease-in-out;
 }
@@ -121,29 +118,25 @@ iframe {
 .toolbar {
   display: flex;
   justify-content: center;
-  flex-flow: row wrap;
-  margin-right: 30vh;
-  margin-left: 30vh;
+  flex-wrap: wrap;
 }
 
 .click {
   font-family: monospace;
   font-size: 32px;
   color: var(--myblack);
-  text-align: center;
   cursor: pointer;
   padding: 16px;
   margin: 16px;
 }
 
 .click:hover {
-  font-family: monospace;
-  font-size: 32px;
   color: white;
-  text-shadow: 1px 1px 1px var(--myblack),1px -1px 1px var(--myblack),-1px -1px 1px var(--myblack),-1px 1px 1px var(--myblack);
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   transition-delay: 10ms;
   transition-timing-function: ease-in-out;
-
 }
 
 .project-list {
